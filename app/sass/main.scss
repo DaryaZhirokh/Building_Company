@@ -1,18 +1,5 @@
-@font-face{
-  font-family: 'MyriadPro-Regular';
-  src: url('fonts/MyriadPro-Regular.otf');
-  font-weight: normal;
-  font-style: normal;
-}
+@import "vars.scss";
+@import "header.scss"
 
 
-.wrapper {
-  margin: 0;
-  padding: 0;
-  font-family: MyriadPro-Regular;
-  overflow-x: hidden !important;
-}
 
-h1 {
-  color: green;
-}
