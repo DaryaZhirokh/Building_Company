@@ -15,4 +15,28 @@ header {
   height: 485px;
   position: relative; }
 
+.number {
+  font-size: 48px;
+  line-height: 24px;
+  color: #fefefe;
+  font-family: "Myriad Pro"; }
+
+.code {
+  font-size: 26px;
+  line-height: 24px;
+  color: #fefefe;
+  font-family: "Myriad Pro"; }
+
+.our-number {
+  position: absolute;
+  left: 75%;
+  top: 198px;
+  width: 100%; }
+  .our-number p {
+    font-size: 18px;
+    line-height: 24px;
+    color: #fefefe;
+    font-family: "Myriad Pro";
+    margin: 4px; }
+
 /*# sourceMappingURL=header.css.map */
