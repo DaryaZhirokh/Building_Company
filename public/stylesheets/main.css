@@ -7,7 +7,8 @@
   margin: 0;
   padding: 0;
   font-family: MyriadPro-Regular;
-  overflow-x: hidden !important; }
+  overflow-x: hidden !important;
+  width: 100%; }
 
 header {
   background-image: url("../../images/backgroundtop.jpg");
@@ -38,6 +39,46 @@ header {
     color: #fefefe;
     font-family: "Myriad Pro";
     margin: 4px; }
+
+@media only screen and (max-width: 1200px) and (min-width: 1024px) {
+  .number {
+    font-size: 40px; } }
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+  header {
+    background-image: url("../../images/backgroundtop_1024.jpg"); }
+
+  .number {
+    font-size: 30px; }
+
+  .code {
+    font-size: 22px; } }
+/*
+  @media (max-width: 320px) {
+
+    header {
+      height: 245px;
+      background-image: url('../../images/backgroundtop 320px.jpg');
+    }
+
+    .our-number {
+      left: 50%;
+      top: 45%;
+    }
+
+    .number {
+      font-size: 20px;
+    }
+
+    .code {
+      font-size: 18px;
+    }
+
+    .our-number p {
+        font-size: 15px;
+    }
+  } */
+.hamburger {
+  display: none; }
 
 .top-menu {
   width: 100%;
@@ -73,12 +114,59 @@ header {
     justify-content: center;
     align-items: center; }
   .top-menu li:nth-child(3) {
-    min-width: 230px; }
+    min-width: 250px; }
   .top-menu a {
     font-size: 19px;
     line-height: 24px;
     color: #ffffff;
     font-family: "Myriad Pro";
     text-decoration: none; }
+
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+  .top-menu {
+    width: 100%; }
+    .top-menu ul {
+      width: auto; }
+    .top-menu li {
+      width: auto;
+      min-width: auto; }
+    .top-menu li:nth-child(3) {
+      min-width: auto; }
+    .top-menu a {
+      padding: 0.5em; } }
+/* Mobile versions: */
+@media (max-width: 320px) {
+  .hamburger {
+    display: block;
+    position: absolute;
+    left: 1%;
+    top: 5%; }
+    .hamburger img {
+      width: 20px;
+      height: 20px; }
+
+  /*   .top-menu {
+        display: none;
+      } */
+  .top-menu {
+    display: block;
+    position: absolute;
+    left: 25%;
+    top: 20%;
+    width: 9em; }
+    .top-menu ul {
+      display: block;
+      width: auto;
+      height: auto; }
+    .top-menu ul :last-child {
+      border-bottom: none; }
+    .top-menu li {
+      justify-content: flex-start;
+      border-bottom: 1px solid white; }
+    .top-menu li:nth-child(3) {
+      min-width: 140px; }
+    .top-menu a {
+      font-size: 12px;
+      padding-left: 1em; } }
 
 /*# sourceMappingURL=main.css.map */

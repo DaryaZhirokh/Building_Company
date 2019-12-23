@@ -10,6 +10,7 @@
   padding: 0;
   font-family: MyriadPro-Regular;
   overflow-x: hidden !important;
+  width: 100%;
 }
 
 header {
@@ -48,3 +49,49 @@ header {
   }
 }
 
+  @media only screen and (max-width: 1200px) and (min-width: 1024px)  {
+    .number {
+      font-size: 40px;
+    }
+  }
+
+  @media only screen and (max-width: 1024px) and (min-width: 768px)  {
+
+    header {
+      background-image: url('../../images/backgroundtop_1024.jpg');
+    }
+
+    .number {
+      font-size: 30px;
+    }
+
+    .code {
+      font-size: 22px;
+    }
+
+}
+/*
+  @media (max-width: 320px) {
+
+    header {
+      height: 245px;
+      background-image: url('../../images/backgroundtop 320px.jpg');
+    }
+
+    .our-number {
+      left: 50%;
+      top: 45%;
+    }
+
+    .number {
+      font-size: 20px;
+    }
+
+    .code {
+      font-size: 18px;
+    }
+
+    .our-number p {
+        font-size: 15px;
+    }
+  } */
