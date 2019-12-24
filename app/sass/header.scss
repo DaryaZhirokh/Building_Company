@@ -1,17 +1,4 @@
-@font-face{
-  font-family: 'MyriadPro-Regular';
-  src: url('../../fonts/MyriadPro-Regular.otf');
-  font-weight: normal;
-  font-style: normal;
-}
 
-.wrapper {
-  margin: 0;
-  padding: 0;
-  font-family: MyriadPro-Regular;
-  overflow-x: hidden !important;
-  width: 100%;
-}
 
 header {
   background-image: url('../../images/backgroundtop.jpg');
@@ -24,14 +11,14 @@ header {
   font-size: 48px;
   line-height: 24px;
   color: #fefefe;
-  font-family: "Myriad Pro";
+  font-family: "MyriadPro";
 }
 
 .code {
   font-size: 26px;
   line-height: 24px;
   color: #fefefe;
-  font-family: "Myriad Pro";
+  font-family: "MyriadPro";
 }
 
 .our-number {
@@ -44,7 +31,7 @@ header {
     font-size: 18px;
     line-height: 24px;
     color: #fefefe;
-    font-family: "Myriad Pro";
+    font-family: "MyriadPro";
     margin: 4px;
   }
 }
@@ -70,12 +57,12 @@ header {
     }
 
 }
-/*
-  @media (max-width: 320px) {
+
+  @media only screen and (max-width: 767px) and (min-width: 376px)  {
 
     header {
       height: 245px;
-      background-image: url('../../images/backgroundtop 320px.jpg');
+      background-image: url('../../images/backgroundtop.jpg');
     }
 
     .our-number {
@@ -94,4 +81,54 @@ header {
     .our-number p {
         font-size: 15px;
     }
-  } */
+  }
+  @media only screen and (max-width: 375px) and (min-width: 320px)  {
+    header {
+      height: 245px;
+      background-image: url('../../images/backgroundtop.jpg');
+    }
+
+    .our-number {
+      left: 53%;
+      top: 45%;
+    }
+
+    .number {
+      font-size: 20px;
+    }
+
+    .code {
+      font-size: 18px;
+    }
+
+    .our-number p {
+        font-size: 15px;
+    }
+  }
+
+  @media only screen and (max-width: 320px) {
+
+     header {
+      height: 245px;
+      background-image: url('../../images/backgroundtop.jpg');
+    }
+
+    .our-number {
+      left: 53%;
+      top: 45%;
+    }
+
+    .number {
+      font-size: 20px;
+    }
+
+    .code {
+      font-size: 18px;
+    }
+
+    .our-number p {
+        font-size: 15px;
+    }
+  }
+
+
