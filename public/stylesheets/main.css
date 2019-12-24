@@ -1,3 +1,15 @@
+@font-face {
+  font-family: 'MyriadPro';
+  src: url("../../fonts/MyriadProRegular.ttf");
+  font-weight: normal;
+  font-style: normal; }
+.wrapper {
+  margin: 0;
+  padding: 0;
+  font-family: MyriadPro;
+  overflow-x: hidden !important;
+  width: 100%; }
+
 header {
   background-image: url("../../images/backgroundtop.jpg");
   background-size: 100% 100%;
@@ -257,16 +269,40 @@ header {
     .top-menu a {
       font-size: 12px;
       padding-left: 1em; } }
-@font-face {
-  font-family: 'MyriadPro';
-  src: url("../../fonts/MyriadProRegular.ttf");
-  font-weight: normal;
-  font-style: normal; }
-.wrapper {
-  margin: 0;
-  padding: 0;
-  font-family: MyriadPro;
-  overflow-x: hidden !important;
-  width: 100%; }
+.activities {
+  /*   height: 175px; */
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10%;
+  margin-right: 10%;
+  flex-wrap: wrap; }
+  .activities img {
+    width: 100px;
+    height: 60px;
+    margin: 5px; }
+  .activities p {
+    font-size: 11px;
+    line-height: 21px;
+    color: #868787;
+    font-family: "Tahoma";
+    margin: 4px; }
+  .activities .title {
+    font-size: 17px;
+    line-height: 24px;
+    color: #4e4e4e;
+    font-family: "MyriadPro";
+    margin: 4px; }
+  .activities a {
+    font-size: 10px;
+    line-height: 24px;
+    color: #03a9d7;
+    font-family: "Tahoma";
+    margin: 4px; }
+
+.projecting, .production, .mounting {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center; }
 
 /*# sourceMappingURL=main.css.map */

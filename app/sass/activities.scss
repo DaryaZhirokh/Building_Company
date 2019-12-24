@@ -1,0 +1,45 @@
+.activities {
+/*   height: 175px; */
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10%;
+  margin-right: 10%;
+  flex-wrap: wrap;
+
+  & img {
+    width: 100px;
+    height: 60px;
+    margin: 5px;
+  }
+
+  & p {
+    font-size: 11px;
+    line-height: 21px;
+    color: #868787;
+    font-family: "Tahoma";
+    margin: 4px;
+  }
+
+  & .title{
+    font-size: 17px;
+    line-height: 24px;
+    color: #4e4e4e;
+    font-family: "MyriadPro";
+    margin: 4px;
+  }
+
+  & a {
+    font-size: 10px;
+    line-height: 24px;
+    color: #03a9d7;
+    font-family: "Tahoma";
+    margin: 4px;
+  }
+}
+
+.projecting, .production, .mounting {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+}

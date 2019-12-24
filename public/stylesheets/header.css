@@ -1,3 +1,15 @@
+@font-face {
+  font-family: 'MyriadPro';
+  src: url("../../fonts/MyriadProRegular.ttf");
+  font-weight: normal;
+  font-style: normal; }
+.wrapper {
+  margin: 0;
+  padding: 0;
+  font-family: MyriadPro;
+  overflow-x: hidden !important;
+  width: 100%; }
+
 header {
   background-image: url("../../images/backgroundtop.jpg");
   background-size: 100% 100%;
