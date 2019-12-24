@@ -152,7 +152,6 @@ header {
     .top-menu a {
       padding: 0.5em;
       font-size: 18px; } }
-/* Mobile versions: */
 @media only screen and (max-width: 768px) and (min-width: 375px) {
   .hamburger {
     display: block;
@@ -163,9 +162,6 @@ header {
       width: 20px;
       height: 20px; }
 
-  /*   .top-menu {
-        display: none;
-      } */
   .top-menu {
     display: block;
     position: absolute;
@@ -201,9 +197,6 @@ header {
       width: 20px;
       height: 20px; }
 
-  /*   .top-menu {
-        display: none;
-      } */
   .top-menu {
     display: block;
     position: absolute;
@@ -239,9 +232,6 @@ header {
       width: 20px;
       height: 20px; }
 
-  /*   .top-menu {
-        display: none;
-      } */
   .top-menu {
     display: block;
     position: absolute;

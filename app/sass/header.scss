@@ -1,5 +1,3 @@
-
-
 header {
   background-image: url('../../images/backgroundtop.jpg');
   background-size: 100% 100%;
@@ -36,11 +34,14 @@ header {
   }
 }
 
+
   @media only screen and (max-width: 1200px) and (min-width: 1024px)  {
+
     .number {
       font-size: 40px;
     }
   }
+
 
   @media only screen and (max-width: 1024px) and (min-width: 768px)  {
 
@@ -55,8 +56,8 @@ header {
     .code {
       font-size: 22px;
     }
+  }
 
-}
 
   @media only screen and (max-width: 767px) and (min-width: 376px)  {
 
@@ -82,7 +83,10 @@ header {
         font-size: 15px;
     }
   }
+
+
   @media only screen and (max-width: 375px) and (min-width: 320px)  {
+
     header {
       height: 245px;
       background-image: url('../../images/backgroundtop.jpg');
@@ -106,9 +110,10 @@ header {
     }
   }
 
+
   @media only screen and (max-width: 320px) {
 
-     header {
+    header {
       height: 245px;
       background-image: url('../../images/backgroundtop.jpg');
     }
