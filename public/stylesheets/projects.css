@@ -1,0 +1,52 @@
+.projects {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 40px; }
+  .projects img {
+    height: 17px;
+    width: 12px;
+    margin-top: 35px; }
+  .projects h3 {
+    font-size: 23px;
+    line-height: 24px;
+    color: #029bcb;
+    font-family: "MyriadPro";
+    margin-bottom: 25px; }
+  .projects section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; }
+  .projects div {
+    margin-left: 2%;
+    margin-right: 2%; }
+  .projects p {
+    font-size: 13px;
+    line-height: 24px;
+    color: #797979;
+    font-family: "Myriad Pro"; }
+
+.project-example h4 {
+  font-size: 15px;
+  line-height: 21px;
+  color: #33b9cd;
+  font-family: "MyriadPro";
+  font-weight: bold;
+  text-decoration: underline;
+  margin: 0; }
+.project-example img {
+  width: 170px;
+  height: 85px;
+  margin: 0; }
+.project-example p {
+  font-size: 13px;
+  line-height: 18px;
+  color: #6f6f6f;
+  font-family: "MyriadPro";
+  margin: 0; }
+.project-example b {
+  color: #000000; }
+
+.projects-text {
+  margin-bottom: 60px; }
+
+/*# sourceMappingURL=projects.css.map */

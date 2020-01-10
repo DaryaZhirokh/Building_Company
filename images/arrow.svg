@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11 16" width="11" height="16">
+	<defs>
+		<image width="11" height="16" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAQCAMAAAD3Y3VMAAAAAXNSR0IB2cksfwAAAL1QTFRF////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////40q6kAAAAD90Uk5TELriZQgCAKT/+1MMj+0q080bBCTwnhQGV/xjDo3jXAqq2Ft09Ww3Ejz5/pBIH+dSKKPeWjPyZz4Wt4RFHTAhiAigRAAAAJFJREFUeJwtjucagjAMRYO2NYizalEr4sS993z/x/IWzK9zk3zJIfJyeSGVKyow+8UgDVRi5nJFpCyqCLW6diwbTYSWwRapsO0zd7pWgpXoYRD1YwmWA/BwZDR4DJxMkxn68wXzcrXehIpoi7a328e4cwAeT2crs7+X6+3uJMg+oufrrVMHbT7JV2SeSgf27/wDgF4LZQ68pfkAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="prev button copy 3" href="#img1" x="0" y="0" />
+</svg>
