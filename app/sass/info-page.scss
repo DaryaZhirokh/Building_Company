@@ -13,11 +13,11 @@ h2 {
   font-family: "MyriadPro";
 }
 
-ul {
+.servises-list {
     list-style: none;
 }
 
-ul li:before {
+.servises-list li:before {
     content:  "-";
     position: relative;
     left: -5px;
