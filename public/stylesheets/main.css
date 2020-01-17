@@ -114,7 +114,16 @@ header {
   margin-right: -50%;
   transform: translate(-50%, 0);
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  /* & li:active {
+    background-color: #1abede;
+    width: 100%;
+    min-width: 145px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } */ }
   .top-menu ul {
     display: flex;
     justify-content: space-between;
@@ -128,14 +137,6 @@ header {
   .top-menu li {
     width: 100%;
     min-width: 145px;
-    display: flex;
-    justify-content: center;
-    align-items: center; }
-  .top-menu li:active {
-    background-color: #1abede;
-    width: 100%;
-    min-width: 145px;
-    height: 36px;
     display: flex;
     justify-content: center;
     align-items: center; }
@@ -269,6 +270,16 @@ header {
     .top-menu a {
       font-size: 12px;
       padding-left: 1em; } }
+.mainListNew {
+  /* background-color: #1abede; */
+  background-color: red;
+  width: 100%;
+  min-width: 145px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
 .activities {
   /*   height: 175px; */
   display: flex;
@@ -280,7 +291,7 @@ header {
     width: 100px;
     height: 60px;
     margin: 5px; }
-  .activities p {
+  .activities .servises-text {
     font-size: 11px;
     line-height: 21px;
     color: #868787;
@@ -304,6 +315,24 @@ header {
   margin-bottom: 50px;
   display: flex;
   align-items: center; }
+
+.particular-Services-div {
+  width: 180px;
+  text-align: justify;
+  /*   display: none; */ }
+
+.particular-Services {
+  white-space: normal;
+  font-size: 11px;
+  line-height: 21px;
+  color: #868787;
+  font-family: "Tahoma";
+  margin: 4px; }
+
+.showText {
+  display: block;
+  width: 180px;
+  text-align: justify; }
 
 h3 {
   font-size: 23px;

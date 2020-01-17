@@ -11,14 +11,14 @@
     <div class="hamburger">
       <img src="images/menu.svg" alt="">
     </div>
-    <nav class="top-menu">
+    <nav class="top-menu" id="topMenu">
       <ul>
-        <li><a href="#">ГЛАВНАЯ</a></li>
-        <li><a href="#">ВЫСТАВКИ</a></li>
-        <li><a href="#">КАТАЛОГ КОМПАНИЙ</a></li>
-        <li><a href="#">НОВОСТИ</a></li>
-        <li><a href="#">ФОРУМ</a></li>
-        <li><a href="#">ПАРТНЕРЫ</a></li>
+        <li class="mainList" ><a href="#">ГЛАВНАЯ</a></li>
+        <li class="mainList" ><a href="#">ВЫСТАВКИ</a></li>
+        <li class="mainList" ><a href="#">КАТАЛОГ КОМПАНИЙ</a></li>
+        <li class="mainList" ><a href="#">НОВОСТИ</a></li>
+        <li class="mainList" ><a href="#">ФОРУМ</a></li>
+        <li class="mainList" ><a href="#">ПАРТНЕРЫ</a></li>
       </ul>
     </nav>
     <section class="our-number">
@@ -27,29 +27,38 @@
     </section>
   </header>
 
-  <section class="activities">
+  <section class="activities" id="activities">
     <div class="projecting">
       <img src="images/projecting.png" alt="">
       <div>
         <p class="title">ПРОЕКТИРОВАНИЕ</p>
-        <p>Комплексная разработка</p>
-        <a href="#">подробнее</a>
+        <p class="servises-text">Комплексная разработка</p>
+        <a data-toggle-id = "more" class="moreInfo" href="#">подробнее</a>
+        <div class="particular-Services-div" id="more" hidden>
+          <p class="particular-Services">LoremIpsumDolorLor emIpsu mDolorLore mIpsumDolor Lore mIpsum  DolorLorem  IpsumDolor L oremIps umDol orLoremIpsu mDolorLore mIpsumDol orLoremIps umDolorL oremIpsum DolorLorem IpsumDo lorLorem IpsumD olorL oremIp sum Dolor</p>
+        </div>
       </div>
     </div>
+
     <div class="production">
-      <img src="images/production.png" alt="">
-      <div>
-        <p class="title">ПРОИЗВОДСТВО</p>
-        <p>Строительные работы</p>
-        <a href="#">подробнее</a>
-      </div>
+       <img src="images/production.png" alt= "">
+       <div>
+         <p class="title">ПРОИЗВОДСТВО</p>
+        <p class="servises-text">Строительные работы</p>
+        <a  class="moreInfo" href="#" data-toggle-id = "moreAboutProduction">подробнее</a>
+        <div class="particular-Services-div" id="moreAboutProduction">
+          <p class="particular-Services">LoremIpsumDolorLor emIpsu mDolorLore mIpsumDolor Lore mIpsum  DolorLorem  IpsumDolor L oremIps umDol orLoremIpsu mDolorLore mIpsumDol orLoremIp sumDolor LoremIpsu mDolorLore mIpsumD olorLore mIpsum Dolor LoremI psu mDolor</p></div>
+        </div>
     </div>
+
     <div class="mounting">
-      <img src="images/mounting.png" alt="">
-      <div>
-        <p class="title">МОНТАЖ</p>
-        <p>Монтаж и обслуживание</p>
-        <a href="#">подробнее</a>
+      <img src ="images/mounting.png " alt="">
+       <div>
+         <p class="title">МОНТАЖ</p>
+          <p class="servises-text">Монтаж и обслуживание</p>
+          <a class="moreInfo" href="#" data-toggle-id = "moreAboutMounting">подробнее</a>
+          <div class="particular-Services-div" id="moreAboutMounting">
+          <p class="particular-Services">LoremIpsumDolorLor emIpsu mDolorLore mIpsumDolor Lore mIpsum  DolorLorem  IpsumDolor L oremIps umDol orLoremIpsu mDolorLore mIpsumDol orLoremI psumDolo rLoremIps umDolorLor emIpsum DolorLor emIpsu mDolo rLorem Ips umDolor</p></div>
       </div>
     </div>
   </section>
@@ -69,7 +78,7 @@
       <div class="offer">
         <h2 class="online-order">ОНЛАЙН-ЗАКАЗ</h2>
         <p class="online-order-text">Вы можете сделать онлайн-заказ или прокансультироваться у наших специалистов</p>
-        <button class="online-order-button" >
+        <button class="online-order-button" id="orderButton">
           <img src="images/arrow.svg" alt="" class="left-arrow">
           <img src="images/arrow.svg" alt="" class="right-arrow">
           <img src="images/stick.svg" alt="" class="stick">
@@ -184,5 +193,6 @@
 
 </div><!-- wrapper -->
 </body>
+<script src="main.js"></script>
 </html>
 
