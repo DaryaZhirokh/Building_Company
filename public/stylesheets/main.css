@@ -356,16 +356,16 @@ h2 {
   left: -5px;
   color: #008fbf; }
 
-.news-block {
+.news-block, .news-block-more {
   display: block;
-  margin-bottom: 18px; }
-  .news-block a {
+  margin-bottom: 0; }
+  .news-block a, .news-block-more a {
     font-size: 12px;
     line-height: 16px;
     color: #008fbf;
     font-family: "MyriadPro";
     word-wrap: break-word; }
-  .news-block p {
+  .news-block p, .news-block-more p {
     font-size: 12px;
     line-height: 16px;
     font-family: "MyriadPro";
@@ -373,6 +373,10 @@ h2 {
     text-decoration-color: #cacaca;
     margin-top: 5px;
     margin-bottom: 5px; }
+
+.news-block-more {
+  margin-bottom: 18px;
+  display: none; }
 
 .watch-all {
   font-size: 13px;

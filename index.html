@@ -45,8 +45,8 @@
        <div>
          <p class="title">ПРОИЗВОДСТВО</p>
         <p class="servises-text">Строительные работы</p>
-        <a  class="moreInfo" href="#" data-toggle-id = "moreAboutProduction">подробнее</a>
-        <div class="particular-Services-div" id="moreAboutProduction">
+        <a  class="moreInfo" href="#" data-toggle-id = "moreAboutProduction" >подробнее</a>
+        <div class="particular-Services-div" id="moreAboutProduction" hidden>
           <p class="particular-Services">LoremIpsumDolorLor emIpsu mDolorLore mIpsumDolor Lore mIpsum  DolorLorem  IpsumDolor L oremIps umDol orLoremIpsu mDolorLore mIpsumDol orLoremIp sumDolor LoremIpsu mDolorLore mIpsumD olorLore mIpsum Dolor LoremI psu mDolor</p></div>
         </div>
     </div>
@@ -57,16 +57,16 @@
          <p class="title">МОНТАЖ</p>
           <p class="servises-text">Монтаж и обслуживание</p>
           <a class="moreInfo" href="#" data-toggle-id = "moreAboutMounting">подробнее</a>
-          <div class="particular-Services-div" id="moreAboutMounting">
+          <div class="particular-Services-div" id="moreAboutMounting" hidden>
           <p class="particular-Services">LoremIpsumDolorLor emIpsu mDolorLore mIpsumDolor Lore mIpsum  DolorLorem  IpsumDolor L oremIps umDol orLoremIpsu mDolorLore mIpsumDol orLoremI psumDolo rLoremIps umDolorLor emIpsum DolorLor emIpsu mDolo rLorem Ips umDolor</p></div>
       </div>
     </div>
   </section>
 
   <div class="info-page">
-    <div class="news">
+    <div class="news" >
       <h3 class="news-title">НОВОСТИ</h3>
-      <div class="news-block">
+      <div class="news-block" hidden>
         <p>21.09.2019 | <a href="#">Разработан проект для многоэтажного дома в Москве</a></p>
         <p>21.09.2019 | <a href="#">Разработан проект для многоэтажного дома в Москве</a></p>
         <p>21.09.2019 | <a href="#">Разработан проект для многоэтажного дома в Москве</a></p>
@@ -74,10 +74,18 @@
         <p>21.09.2019 | <a href="#">Разработан проект для многоэтажного дома в Москве</a></p>
         <p>21.09.2019 | <a href="#">Разработан проект для многоэтажного дома в Москве</a></p>
       </div>
-      <a class="watch-all" href="#">Посмотреть все новости</a>
+      <div class="news-block-more" id="newsBlockMore">
+        <p>21.09.2019 | <a href="#">Разработан проект для многоэтажного дома в Москве</a></p>
+        <p>21.09.2019 | <a href="#">Разработан проект для многоэтажного дома в Москве</a></p>
+        <p>21.09.2019 | <a href="#">Разработан проект для многоэтажного дома в Москве</a></p>
+        <p>21.09.2019 | <a href="#">Разработан проект для многоэтажного дома в Москве</a></p>
+        <p>21.09.2019 | <a href="#">Разработан проект для многоэтажного дома в Москве</a></p>
+        <p>21.09.2019 | <a href="#">Разработан проект для многоэтажного дома в Москве</a></p>
+      </div>
+      <a class="watch-all" href="#" id="watchAll">Посмотреть все новости</a>
       <div class="offer">
         <h2 class="online-order">ОНЛАЙН-ЗАКАЗ</h2>
-        <p class="online-order-text">Вы можете сделать онлайн-заказ или прокансультироваться у наших специалистов</p>
+        <p class="online-order-text">Вы можете сделать онлайн-заказ или прокoнсультироваться у наших специалистов</p>
         <button class="online-order-button" id="orderButton">
           <img src="images/arrow.svg" alt="" class="left-arrow">
           <img src="images/arrow.svg" alt="" class="right-arrow">

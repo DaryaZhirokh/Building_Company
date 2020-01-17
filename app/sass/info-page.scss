@@ -24,9 +24,9 @@ h2 {
     color: #008fbf;
 }
 
-.news-block {
+.news-block, .news-block-more{
   display: block;
-  margin-bottom: 18px;
+  margin-bottom: 0;
 
   & a {
     font-size: 12px;
@@ -45,6 +45,11 @@ h2 {
     margin-top: 5px;
     margin-bottom: 5px;
   }
+}
+
+.news-block-more{
+  margin-bottom: 18px;
+  display: none;
 }
 
 .watch-all {
