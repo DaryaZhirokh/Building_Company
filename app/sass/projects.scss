@@ -18,15 +18,15 @@
     margin-bottom: 25px;
   }
 
-  & section {
+   & section {
+    width: 100%;
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
   }
 
-  & div {
-    margin-left: 2%;
-    margin-right: 2%;
+  & li {
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline-block;
   }
 
   & p {
@@ -38,6 +38,7 @@
 }
 
 .project-example  {
+  display: block;
 
   & h4 {
     font-size: 15px;
@@ -71,3 +72,28 @@
 .projects-text {
   margin-bottom: 60px;
 }
+
+.carousel {
+  position: relative;
+  width: 390px;
+}
+
+.gallery {
+  width: 765px;
+  overflow: hidden;
+}
+
+.gallery ul {
+  height: 145px;
+  width: 9999px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  transition: margin-right 250ms;
+  font-size: 0;
+}
+
+.gallery li {
+  display: inline-block;
+}
+

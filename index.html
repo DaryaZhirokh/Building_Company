@@ -7,6 +7,7 @@
 </head>
 <body>
 <div class="wrapper"><!-- wrapper -->
+
   <header>
     <div class="hamburger">
       <img src="images/menu.svg" alt="">
@@ -117,7 +118,7 @@
           </ul>
         </article>
         <article>
-          <ul>
+          <ul class="servises-list">
             <li><a href="#">Устройство внуутренних инженерных систем</a></li>
             <li><a href="#">Земляные работы</a></li>
             <li><a href="#">Работы нулевого цикла</a></li>
@@ -133,33 +134,70 @@
 
   <div class="projects"> <!-- projects -->
     <h3>Наши проекты</h3>
-    <section>
-      <img src="images/rightarrow.png" alt="">
-      <div class="project-example">
-        <img src="images/project.png" alt="">
-        <h4>СТРОЕНИЕ</h4>
-        <p>г. Москва</p>
-        <p>Цена: <b>1.500000</b> руб.</p>
+    <section class="carousel">
+      <img src="images/rightarrow.png" id = "prev" alt="" onclick="goBack()">
+
+      <div class="gallery" id="gallery">
+        <ul class="images">
+          <li>
+            <div class="project-example">
+              <img src="images/project.png" alt="">
+              <h4>СТРОЕНИЕ</h4>
+              <p>г. Москва</p>
+              <p>Цена: <b>1.500000</b> руб.</p>
+            </div>
+          </li>
+          <li>
+            <div class="project-example">
+              <img src="images/project.png" alt="">
+              <h4>СТРОЕНИЕ</h4>
+              <p>г. Москва</p>
+              <p>Цена: <b>1.500000</b> руб.</p>
+            </div>
+          </li>
+          <li>
+            <div class="project-example">
+              <img src="images/project.png" alt="">
+              <h4>СТРОЕНИЕ</h4>
+              <p>г. Москва</p>
+              <p>Цена: <b>1.500000</b> руб.</p>
+            </div>
+          </li>
+          <li>
+            <div class="project-example">
+              <img src="images/project.png" alt="">
+              <h4>СТРОЕНИЕ</h4>
+              <p>г. Москва</p>
+              <p>Цена: <b>1.500000</b> руб.</p>
+            </div>
+          </li>
+          <li>
+            <div class="project-example">
+              <img src="images/buildings.jpg" alt="">
+              <h4>СТРОЕНИЕ</h4>
+              <p>г. Москва</p>
+              <p>Цена: <b>1.500000</b> руб.</p>
+            </div>
+          </li>
+          <li>
+            <div class="project-example">
+              <img src="images/buildings.jpg" alt="">
+              <h4>СТРОЕНИЕ</h4>
+              <p>г. Москва</p>
+              <p>Цена: <b>1.500000</b> руб.</p>
+            </div>
+          </li>
+          <li>
+            <div class="project-example">
+              <img src="images/skyscrapers.jpg" alt="">
+              <h4>СТРОЕНИЕ</h4>
+              <p>г. Москва</p>
+              <p>Цена: <b>1.500000</b> руб.</p>
+            </div>
+          </li>
+        </ul>
       </div>
-      <div class="project-example">
-        <img src="images/project.png" alt="">
-        <h4>СТРОЕНИЕ</h4>
-        <p>г. Москва</p>
-        <p>Цена: <b>1.500000</b> руб.</p>
-      </div>
-      <div class="project-example">
-        <img src="images/project.png" alt="">
-        <h4>СТРОЕНИЕ</h4>
-        <p>г. Москва</p>
-        <p>Цена: <b>1.500000</b> руб.</p>
-      </div>
-      <div class="project-example">
-        <img src="images/project.png" alt="">
-        <h4>СТРОЕНИЕ</h4>
-        <p>г. Москва</p>
-        <p>Цена: <b>1.500000</b> руб.</p>
-      </div>
-      <img src="images/leftarrow.png" alt="">
+      <img src="images/leftarrow.png" id = "next" onclick="goForvard()" alt="">
     </section>
       <p class="projects-text">Уралстройпортал - ведущий строительный портал Екатеринбурга и Уральского региона, объединяющий интересы строительных компаний, бригад, дизайнеров по интерьеру и поставщиков строительных материалов, инструмента и техники с интересами заказчиков строительной продукции, работ и услуг. Более 8 лет Уралстройпортал активно участвует в информационной жизни строительного рынка Екатеринбурга, Челябинска, Тюмени, предоставляя наиболее востребованную информацию о тендерах, ценах на стройматериалы, технику и оборудование, помогая выбирать надежных партнеров для жилищного, загородного и промышленного строительства, а также решить вопросы ремонта, отделки квартир и офисов.
       </p>
@@ -198,6 +236,8 @@
       </div>
     </section>
   </footer>
+  <div class="test"></div>
+
 
 </div><!-- wrapper -->
 </body>

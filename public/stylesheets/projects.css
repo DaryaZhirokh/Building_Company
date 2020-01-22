@@ -13,40 +13,62 @@
     font-family: "MyriadPro";
     margin-bottom: 25px; }
   .projects section {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap; }
-  .projects div {
-    margin-left: 2%;
-    margin-right: 2%; }
+    width: 100%;
+    display: flex; }
+  .projects li {
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline-block; }
   .projects p {
     font-size: 13px;
     line-height: 24px;
     color: #797979;
     font-family: "Myriad Pro"; }
 
-.project-example h4 {
-  font-size: 15px;
-  line-height: 21px;
-  color: #33b9cd;
-  font-family: "MyriadPro";
-  font-weight: bold;
-  text-decoration: underline;
-  margin: 0; }
-.project-example img {
-  width: 170px;
-  height: 85px;
-  margin: 0; }
-.project-example p {
-  font-size: 13px;
-  line-height: 18px;
-  color: #6f6f6f;
-  font-family: "MyriadPro";
-  margin: 0; }
-.project-example b {
-  color: #000000; }
+.project-example {
+  display: block; }
+  .project-example h4 {
+    font-size: 15px;
+    line-height: 21px;
+    color: #33b9cd;
+    font-family: "MyriadPro";
+    font-weight: bold;
+    text-decoration: underline;
+    margin: 0; }
+  .project-example img {
+    width: 170px;
+    height: 85px;
+    margin: 0; }
+  .project-example p {
+    font-size: 13px;
+    line-height: 18px;
+    color: #6f6f6f;
+    font-family: "MyriadPro";
+    margin: 0; }
+  .project-example b {
+    color: #000000; }
 
 .projects-text {
   margin-bottom: 60px; }
+
+.carousel {
+  position: relative;
+  width: 390px; }
+
+.gallery {
+  width: 765px;
+  overflow: hidden; }
+
+.gallery ul {
+  height: 145px;
+  width: 9999px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  transition: margin-right 250ms;
+  font-size: 0; }
+
+.gallery li {
+  display: inline-block; }
 
 /*# sourceMappingURL=projects.css.map */
