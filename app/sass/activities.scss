@@ -64,3 +64,9 @@
   width: 180px;
   text-align: justify;
 }
+
+@media (max-width: 930px)  {
+  .activities {
+    justify-content: space-around;
+  }
+}

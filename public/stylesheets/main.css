@@ -107,178 +107,34 @@ header {
   display: none; }
 
 .top-menu {
-  width: 100%;
   position: absolute;
   bottom: 0;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, 0);
-  display: flex;
-  justify-content: center;
-  /* & li:active {
-    background-color: #1abede;
-    width: 100%;
-    min-width: 145px;
-    height: 36px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  } */ }
+  width: 100%; }
   .top-menu ul {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    height: 36px;
-    width: 969px;
-    background-color: #15a1cf; }
-  .top-menu li {
-    width: 100%;
-    min-width: 145px;
+    background-color: #15a1cf;
+    height: 35px;
     display: flex;
     justify-content: center;
-    align-items: center; }
-  .top-menu li:nth-child(3) {
-    min-width: 250px; }
-  .top-menu a {
-    font-size: 19px;
+    align-items: center;
+    margin-bottom: 0;
+    width: 100%; }
+
+.mainList {
+  list-style-type: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 20px;
+  padding-right: 20px; }
+  .mainList:hover {
+    background-color: #1abede; }
+  .mainList a {
+    font-size: 18px;
     line-height: 24px;
     color: #ffffff;
     font-family: "MyriadPro";
     text-decoration: none; }
-
-@media only screen and (max-width: 1024px) and (min-width: 768px) {
-  .top-menu {
-    width: 100%; }
-    .top-menu ul {
-      width: auto; }
-    .top-menu li {
-      width: auto;
-      min-width: auto; }
-    .top-menu li:nth-child(3) {
-      min-width: auto; }
-    .top-menu li:active {
-      min-width: auto;
-      width: auto; }
-    .top-menu a {
-      padding: 0.5em;
-      font-size: 18px; } }
-@media only screen and (max-width: 768px) and (min-width: 375px) {
-  .hamburger {
-    display: block;
-    position: absolute;
-    left: 5%;
-    top: 6%; }
-    .hamburger img {
-      width: 20px;
-      height: 20px; }
-
-  .top-menu {
-    display: block;
-    position: absolute;
-    left: 5em;
-    top: 5%;
-    width: 9em; }
-    .top-menu ul {
-      display: block;
-      width: auto;
-      height: auto; }
-    .top-menu ul :last-child {
-      border-bottom: none; }
-    .top-menu li {
-      justify-content: flex-start;
-      border-bottom: 1px solid white; }
-    .top-menu li:nth-child(3) {
-      min-width: 140px; }
-    .top-menu li:active {
-      min-width: auto;
-      width: auto;
-      height: auto;
-      justify-content: flex-start; }
-    .top-menu a {
-      font-size: 12px;
-      padding-left: 1em; } }
-@media only screen and (max-width: 375px) and (min-width: 320px) {
-  .hamburger {
-    display: block;
-    position: absolute;
-    left: 5%;
-    top: 6%; }
-    .hamburger img {
-      width: 20px;
-      height: 20px; }
-
-  .top-menu {
-    display: block;
-    position: absolute;
-    left: 29%;
-    top: 20%;
-    width: 9em; }
-    .top-menu ul {
-      display: block;
-      width: auto;
-      height: auto; }
-    .top-menu ul :last-child {
-      border-bottom: none; }
-    .top-menu li {
-      justify-content: flex-start;
-      border-bottom: 1px solid white; }
-    .top-menu li:nth-child(3) {
-      min-width: 140px; }
-    .top-menu li:active {
-      min-width: auto;
-      width: auto;
-      height: auto;
-      justify-content: flex-start; }
-    .top-menu a {
-      font-size: 12px;
-      padding-left: 1em; } }
-@media only screen and (max-width: 320px) {
-  .hamburger {
-    display: block;
-    position: absolute;
-    left: 5%;
-    top: 6%; }
-    .hamburger img {
-      width: 20px;
-      height: 20px; }
-
-  .top-menu {
-    display: block;
-    position: absolute;
-    left: 29%;
-    top: 20%;
-    width: 9em; }
-    .top-menu ul {
-      display: block;
-      width: auto;
-      height: auto; }
-    .top-menu ul :last-child {
-      border-bottom: none; }
-    .top-menu li {
-      justify-content: flex-start;
-      border-bottom: 1px solid white; }
-    .top-menu li:nth-child(3) {
-      min-width: 140px; }
-    .top-menu li:active {
-      min-width: auto;
-      width: auto;
-      height: auto;
-      justify-content: flex-start; }
-    .top-menu a {
-      font-size: 12px;
-      padding-left: 1em; } }
-.mainListNew {
-  /* background-color: #1abede; */
-  background-color: red;
-  width: 100%;
-  min-width: 145px;
-  height: 36px;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
 
 .activities {
   /*   height: 175px; */
@@ -334,6 +190,9 @@ header {
   width: 180px;
   text-align: justify; }
 
+@media (max-width: 930px) {
+  .activities {
+    justify-content: space-around; } }
 h3 {
   font-size: 23px;
   line-height: 24px;
@@ -495,77 +354,21 @@ h2 {
     .info-page .news, .info-page .company-info {
       width: 101%; } }
 .projects {
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 40px; }
-  .projects img {
-    height: 17px;
-    width: 12px;
-    margin-top: 35px; }
-  .projects h3 {
-    font-size: 23px;
-    line-height: 24px;
-    color: #029bcb;
-    font-family: "MyriadPro";
-    margin-bottom: 25px; }
-  .projects section {
-    width: 100%;
-    display: flex; }
-  .projects li {
-    margin-left: 10px;
-    margin-right: 10px;
-    display: inline-block; }
-  .projects p {
-    font-size: 13px;
-    line-height: 24px;
-    color: #797979;
-    font-family: "Myriad Pro"; }
+  margin: 5% 10% 5% 10%; }
 
-.project-example {
-  display: block; }
-  .project-example h4 {
-    font-size: 15px;
-    line-height: 21px;
-    color: #33b9cd;
-    font-family: "MyriadPro";
-    font-weight: bold;
-    text-decoration: underline;
-    margin: 0; }
-  .project-example img {
-    width: 170px;
-    height: 85px;
-    margin: 0; }
-  .project-example p {
-    font-size: 13px;
-    line-height: 18px;
-    color: #6f6f6f;
-    font-family: "MyriadPro";
-    margin: 0; }
-  .project-example b {
-    color: #000000; }
+.carousel__item {
+  margin: 20px; }
+  .carousel__item img {
+    width: 200px;
+    height: 100px; }
 
 .projects-text {
-  margin-bottom: 60px; }
-
-.carousel {
-  position: relative;
-  width: 390px; }
-
-.gallery {
-  width: 765px;
-  overflow: hidden; }
-
-.gallery ul {
-  height: 145px;
-  width: 9999px;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  transition: margin-right 250ms;
-  font-size: 0; }
-
-.gallery li {
-  display: inline-block; }
+  font-size: 13px;
+  line-height: 24px;
+  color: #797979;
+  font-family: "MyriadPro";
+  margin-top: 16px;
+  margin-bottom: 14px; }
 
 footer {
   border-top: 1px dashed;

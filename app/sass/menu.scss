@@ -3,261 +3,41 @@
 }
 
 .top-menu {
-  width: 100%;
   position: absolute;
   bottom: 0;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, 0);
-  display: flex;
-  justify-content: center;
+  width: 100%;
 
   & ul {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    height: 36px;
-    width: 969px;
     background-color: #15a1cf;
-  }
-
-  & li {
-    width: 100%;
-    min-width: 145px;
+    height: 35px;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-
-  /* & li:active {
-    background-color: #1abede;
+    margin-bottom: 0;
     width: 100%;
-    min-width: 145px;
-    height: 36px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  } */
-
-  & li:nth-child(3) {
-    min-width: 250px;
   }
+}
+.mainList {
+    list-style-type: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
 
-  & a {
-    font-size: 19px;
+
+    &:hover {
+      background-color: #1abede;
+    }
+
+  & a{
+    font-size: 18px;
     line-height: 24px;
     color: #ffffff;
     font-family: "MyriadPro";
     text-decoration: none;
+    
   }
 }
 
-
-  @media only screen and (max-width: 1024px) and (min-width: 768px)  {
-
-    .top-menu {
-      width: 100%;
-
-      & ul {
-        width: auto;
-      }
-
-      & li {
-        width: auto;
-        min-width: auto;
-      }
-
-      & li:nth-child(3) {
-        min-width: auto;
-      }
-
-      & li:active {
-        min-width: auto;
-        width: auto;
-      }
-
-      & a {
-        padding: 0.5em;
-        font-size: 18px;
-      }
-    }
-  }
-
-
-  @media only screen and (max-width: 768px) and (min-width: 375px)  {
-
-    .hamburger {
-      display: block;
-      position: absolute;
-      left: 5%;
-      top: 6%;
-
-      & img {
-        width: 20px;
-        height: 20px;
-      }
-    }
-
-    .top-menu {
-      display: block;
-      position: absolute;
-      left: 5em;
-      top: 5%;
-      width: 9em;
-
-      & ul {
-        display: block;
-        width: auto;
-        height: auto;
-      }
-
-      & ul :last-child {
-        border-bottom: none;
-      }
-
-      & li {
-        justify-content: flex-start;
-        border-bottom: 1px solid white;
-      }
-
-      & li:nth-child(3) {
-        min-width: 140px;
-      }
-
-      & li:active {
-        min-width: auto;
-        width: auto;
-        height: auto;
-        justify-content: flex-start;
-      }
-
-      & a {
-        font-size: 12px;
-        padding-left: 1em;
-      }
-    }
-  }
-
-
-  @media only screen and (max-width: 375px) and (min-width: 320px)  {
-
-    .hamburger {
-      display: block;
-      position: absolute;
-      left: 5%;
-      top: 6%;
-
-      & img {
-        width: 20px;
-        height: 20px;
-      }
-    }
-
-    .top-menu {
-      display: block;
-      position: absolute;
-      left: 29%;
-      top: 20%;
-      width: 9em;
-
-      & ul {
-        display: block;
-        width: auto;
-        height: auto;
-      }
-
-      & ul :last-child {
-        border-bottom: none;
-      }
-
-      & li {
-        justify-content: flex-start;
-        border-bottom: 1px solid white;
-      }
-
-      & li:nth-child(3) {
-        min-width: 140px;
-      }
-
-      & li:active {
-        min-width: auto;
-        width: auto;
-        height: auto;
-        justify-content: flex-start;
-      }
-
-      & a {
-        font-size: 12px;
-        padding-left: 1em;
-      }
-    }
-  }
-
-
-  @media only screen and (max-width: 320px) {
-
-    .hamburger {
-      display: block;
-      position: absolute;
-      left: 5%;
-      top: 6%;
-
-      & img {
-        width: 20px;
-        height: 20px;
-      }
-    }
-
-    .top-menu {
-      display: block;
-      position: absolute;
-      left: 29%;
-      top: 20%;
-      width: 9em;
-
-      & ul {
-        display: block;
-        width: auto;
-        height: auto;
-      }
-
-      & ul :last-child {
-        border-bottom: none;
-      }
-
-      & li {
-        justify-content: flex-start;
-        border-bottom: 1px solid white;
-      }
-
-      & li:nth-child(3) {
-        min-width: 140px;
-      }
-
-      & li:active {
-        min-width: auto;
-        width: auto;
-        height: auto;
-        justify-content: flex-start;
-      }
-
-      & a {
-        font-size: 12px;
-        padding-left: 1em;
-      }
-    }
-  }
-
-.mainListNew {
-    /* background-color: #1abede; */
-    background-color: red;
-    width: 100%;
-    min-width: 145px;
-    height: 36px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
